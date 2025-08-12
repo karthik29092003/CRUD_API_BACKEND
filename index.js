@@ -82,7 +82,7 @@ app.use('/api/products',productRoute)
 // })
 
 
-mongoose.connect("mongodb+srv://bear_29:20195875Kk@cluster0.rncux1g.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("connection_string_url")
 .then(()=>{
     console.log("Connected to database!")
     
